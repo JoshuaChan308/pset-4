@@ -4,7 +4,7 @@ let x = 0
 console.log();
 do{
   positiveInteger = Number(readlineSync.question("Positive integer: "));
-} while (positiveInteger < 1 || positiveInteger > positiveInteger.MAX_SAFE_INTEGER || Number.isNaN(positiveInteger) || positiveInteger % 1 != 0)
+} while (positiveInteger < 1 || positiveInteger > Number.MAX_SAFE_INTEGER || Number.isNaN(positiveInteger) || positiveInteger % 1 != 0)
 
 do {
   x = positiveInteger % 10;
