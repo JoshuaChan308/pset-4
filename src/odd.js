@@ -8,7 +8,7 @@ do{
 
 do {
   x = positiveInteger % 10;
-  if (x%2 != 0) {
+  if (x % 2 != 0) {
     sum = sum + x;
   }
   positiveInteger = positiveInteger - x
