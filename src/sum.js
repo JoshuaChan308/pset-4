@@ -3,7 +3,7 @@ const readlineSync = require("readline-sync");
 let sum = 0;
 let x = 0;
 
-console.log("")
+console.log();
 do{
   lowerBound = Number(readlineSync.question("Lower bound: "));
   upperBound = Number(readlineSync.question("Upper bound: "));

@@ -1,7 +1,7 @@
 const readlineSync = require("readline-sync");
 let reversed = "";
 let x = 0
-console.log("")
+console.log();
 do{
   positiveInteger = Number(readlineSync.question("Positive Integer: "));
 } while (positiveInteger < Number.MIN_SAFE_INTEGER || positiveInteger > Number.MAX_SAFE_INTEGER || Number.isNaN(positiveInteger) || positiveInteger % 1 != 0 || positiveInteger <= 0)
