@@ -11,7 +11,7 @@ let previous = 1;
 let secondPrevious = 0;
 let sum = 0;
 if(positiveInteger == 1){
-    console.log("\n0.");
+    console.log("\n1.");
 } else{
     while(positiveInteger > 1){
         sum = previous + secondPrevious;
