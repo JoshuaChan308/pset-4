@@ -2,7 +2,7 @@ const readlineSync = require("readline-sync");
 let sum = 0
 let x = 0
 console.log();
-do{
+do {
   positiveInteger = Number(readlineSync.question("Positive integer: "));
 } while (positiveInteger < 1 || positiveInteger > Number.MAX_SAFE_INTEGER || Number.isNaN(positiveInteger) || positiveInteger % 1 != 0)
 
@@ -12,7 +12,7 @@ do {
     sum = sum + x;
   }
   positiveInteger = positiveInteger - x
-  positiveInteger = positiveInteger/10;
+  positiveInteger = positiveInteger / 10;
 } while (positiveInteger >= 10);
 
 sum = sum + positiveInteger

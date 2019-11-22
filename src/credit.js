@@ -28,7 +28,6 @@ secondDigit = (Math.floor(creditNumber / 10 ** (digit - 2)) / 10) * 10;
 
 for (let loop = 0; loop < digit; loop++) {
   singularDigit = (creditNumber - Math.floor(creditNumber / 10) * 10);
-  singularDigit = (singularDigit * 1);
   creditNumber = Math.floor(creditNumber / 10);
   if (loop % 2 == 1) {
     if (singularDigit * 2 >= 10) {

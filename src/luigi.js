@@ -9,7 +9,7 @@ let hashtags = 1;
 console.log();
 
 do {
-    height = Number(readlineSync.question("Height: "));
+  height = Number(readlineSync.question("Height: "));
 } while (height < 1 || height > 24 || Number.isNaN(height) || !Number.isInteger(height));
 
 rowLength = height + 1;
@@ -19,30 +19,30 @@ console.log();
 
 for (let x = 0; x < height; x++) {
 
-    while (spaces <= rowLength - secondHashtag) {
-        print = print + " ";
-        spaces++;
-    }
+  while (spaces <= rowLength - secondHashtag) {
+    print = print + " ";
+    spaces++;
+  }
 
-    while (hashtags <= secondHashtag) {
-        print = print + "#";
-        hashtags++;
-    }
+  while (hashtags <= secondHashtag) {
+    print = print + "#";
+    hashtags++;
+  }
 
-    print = print + "  ";
-    spaces = 1;
-    hashtags = 1;
+  print = print + "  ";
+  spaces = 1;
+  hashtags = 1;
 
-    while (hashtags <= secondHashtag) {
-        print = print + "#";
-        hashtags++;
-    }
+  while (hashtags <= secondHashtag) {
+    print = print + "#";
+    hashtags++;
+  }
 
-    console.log(print);
-    secondHashtag++;
-    print = "";
-    spaces = 1;
-    hashtags = 1;
+  console.log(print);
+  secondHashtag++;
+  print = "";
+  spaces = 1;
+  hashtags = 1;
 }
 
 console.log();
