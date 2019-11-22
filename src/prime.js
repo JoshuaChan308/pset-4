@@ -13,6 +13,9 @@ for (i = 2; i <= nonNegativeInteger / 2; i = i + 1) {
 }
 if (check == 1) {
   console.log("\nNot prime.\n")
-} else {
+} else if (nonNegativeInteger == 1) {
+  console.log("\nNot prime.\n")
+}
+ else {
   console.log("\nPrime.\n")
 }

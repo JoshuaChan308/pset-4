@@ -13,6 +13,6 @@ do {
   positiveInteger = positiveInteger / 10;
 } while (positiveInteger > 10);
 
-reversed = reversed + positiveInteger + ".\n"
+reversed = reversed + positiveInteger + "."
 
-console.log(reversed);
+console.log("\n" + reversed + "\n");
