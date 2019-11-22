@@ -13,6 +13,6 @@ do {
   positiveInteger = positiveInteger/10;
 } while (positiveInteger > 10);
 
-reversed = reversed + positiveInteger + "."
+reversed = reversed + positiveInteger + ".\n"
 
 console.log(reversed);

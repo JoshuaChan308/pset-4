@@ -27,4 +27,4 @@ while (x <= Math.floor(Math.sqrt(positiveInteger))) {
 }
 
 
-  console.log("\n" + finalResult);
+  console.log("\n" + finalResult + "\n");

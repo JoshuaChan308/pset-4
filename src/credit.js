@@ -46,11 +46,11 @@ for (let loop = 0; loop < digit; loop++) {
 }
 
 if (addition/10 % 1 != 0) {
-  console.log("\nInvalid.")
+  console.log("\nInvalid.\n")
 } else if (digit == 15 && (secondDigit == 34 || secondDigit == 37)) {
-  console.log("\nAmex.")
+  console.log("\nAmex.\n")
 } else if (digit == 16 && (secondDigit <= 55 && secondDigit >= 51)) {
-  console.log("\nMastercard.")
+  console.log("\nMastercard.\n")
 } else if ((digit == 13 || digit == 16) && firstDigit == 4) {
-  console.log("\nVisa.")
+  console.log("\nVisa.\n")
 }

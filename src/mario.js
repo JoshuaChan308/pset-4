@@ -36,3 +36,5 @@ for (let x = 0; x < height; x++) {
     spaces = 1;
     hashtags = 1;
 }
+
+console.log();

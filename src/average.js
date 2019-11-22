@@ -15,4 +15,4 @@ do{
 average = sum/divide
 
 average = average.toLocaleString('en', {minimumFractionDigits: 3, maximumFractionDigits: 3});
-console.log("\n" + average +  ".");
+console.log("\n" + average +  ".\n");

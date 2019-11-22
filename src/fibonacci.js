@@ -20,5 +20,5 @@ if(positiveInteger == 1){
         positiveInteger--;
     }
 final = sum.toLocaleString('en', {minimumFractionDigits: 0, maximumFractionDigits: 0})
-console.log("\n" + final + ".");
+console.log("\n" + final + ".\n");
 }

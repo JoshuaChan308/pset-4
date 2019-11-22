@@ -17,4 +17,4 @@ do {
 
 sum = sum + positiveInteger
 
-console.log("\n" + sum + ".");
+console.log("\n" + sum + ".\n");
